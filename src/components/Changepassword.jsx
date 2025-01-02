@@ -48,8 +48,8 @@ export default function Changepassword() {
 
     console.log(pass)
     return (
-        <div>
-            <Form>
+        <div className='container'>
+            <Form className='pt-5'>
                 <Form.Group className="ms-5 me-5" controlId="exampleForm.ControlInput1">
                     <Form.Label>Enter Password</Form.Label>
                     <Form.Control value={pass.epass} onChange={(e) => setPass({ ...pass, epass: e.target.value })}

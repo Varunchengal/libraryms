@@ -10,6 +10,7 @@ import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 import './main.css'
 import { addUser } from '../services/allApis';
 import { toast } from 'react-toastify';
+import Navbartop from './HomeNavBar';
 
 export default function StudentRegister() {
 
@@ -113,6 +114,8 @@ if(result.status==200){
 }
       console.log(reg)
   return (
+    <>
+    <Navbartop/>
     <div className='reg-s-align'> 
         <div className='reg-student'>
             <h2 className='pb-3'>Student Register</h2>
@@ -176,5 +179,6 @@ if(result.status==200){
             </Form>
         </div>
     </div>
+    </>
   )
 }

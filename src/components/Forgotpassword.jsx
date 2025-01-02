@@ -24,7 +24,7 @@ const navigate=useNavigate()
     }
 
   return (
-    <div>
+    <div className='container'>
           <Form>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
               <Form.Label>Email address</Form.Label>
@@ -36,7 +36,7 @@ const navigate=useNavigate()
             </Form.Group>
            </Form>
        
-          <Button variant="secondary" >
+          <Button variant="secondary me-3" >
            Clear
           </Button>
           <Button variant="primary" onClick={(e)=>checkEmail(e)}>

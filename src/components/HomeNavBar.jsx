@@ -6,7 +6,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Loginpage from './Loginpage';
 import { useNavigate } from 'react-router-dom';
-import logo from '../images/library.svg'
+import logo from '../images/library.svg';
+import {Link} from 'react-router-dom';
 
 
 function HomeNavBar() {
@@ -33,7 +34,7 @@ function HomeNavBar() {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto">
-                <Nav.Link href="#features">Books</Nav.Link>
+                <Link to={'/'} className='pt-2' style={{textDecoration:'none'}}>Home</Link>
                 <Nav.Link href="#pricing">Contact</Nav.Link>
               
               </Nav>
