@@ -29,8 +29,8 @@ export default function Adminhomepage(){
         <>
         <Navbartop/>
         <div className='admin-main-page row'>
-        <div className='col-2 bg-sbar'><Adminsidebar/></div>
-        <div className='col-10'>
+        <div className='col-3 col-md-2 bg-sbar'><Adminsidebar/></div>
+        <div className='col-9 col-md-10'>
             <div>Welcome</div>
         </div>
         </div>
