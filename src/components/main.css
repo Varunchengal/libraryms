@@ -88,11 +88,13 @@
 }
 
 .card-title{
-    height: 50px;
-    overflow-x: scroll;
+   padding-top: 15px;
+   margin-bottom: 20px;
+   height: 98px;
+   overflow-x: scroll;
 }
 .card-size{
-    height: 350px !important;
+    height: 300px !important;
     width: 100% ;
     border-radius: 3px !important;
 
