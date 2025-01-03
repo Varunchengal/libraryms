@@ -90,7 +90,7 @@
 .card-title{
    padding-top: 15px;
    margin-bottom: 20px;
-   height: 98px;
+   height: 100%;
    overflow-x: scroll;
 }
 .card-size{
