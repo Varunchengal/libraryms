@@ -24,7 +24,7 @@ import CommonFooter from './components/CommonFooter';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App gx-0">
     
      <Routes><Route path='/' element={<Homepage/>}/>
      <Route path='reg' element={<StudentRegister/>}/>
