@@ -139,19 +139,19 @@ console.log(refresh)
         
       />
   </div>
-  <div className='mb-2'><BookHistoryStudent comp={refresh}/></div>
+  <div className='mb-4'><BookHistoryStudent comp={refresh}/></div>
     <div className='container-fluid'>
  
   <div className='row'>
    
      { books?.map((item)=>(
-     <div className='col-4 col-md-3 col-lg-2'> <Card className="card-size shadow mt-2">
+     <div className='col-6 col-md-3 col-lg-2'> <Card className="card-size shadow mt-2">
      
 <img style={{width:'100%', height:'150px'}} src={`${BASEURL}/upload/${item.cover}`} alt="img" />
 
 <Card.Title className='card-title'>{item.title}</Card.Title>
 <Card.Body>
-  {item.description} 
+
   
 </Card.Body>
 {
