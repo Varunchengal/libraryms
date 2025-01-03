@@ -133,9 +133,9 @@ console.log(edit)
     <Navbartop/>
         <div> <Form>
     <div className='row'>
-         <div className='col-2 bg-sbar'><Adminsidebar/></div>
+         <div className='col-3 col-md-2 bg-sbar'><Adminsidebar/></div>
     
-    <div className='col-3 edit-center'>
+    <div className='col-3 col-md-3 edit-center'>
     
             <label htmlFor="cover">
               <input type="file" style={{display:'none'}} name="cover" id="cover"
