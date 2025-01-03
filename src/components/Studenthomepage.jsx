@@ -145,7 +145,7 @@ console.log(refresh)
   <div className='row'>
    
      { books?.map((item)=>(
-     <div className='col-6 col-md-3 col-lg-2'> <Card className="card-size shadow mt-2">
+     <div className='col-6 col-md-3 col-lg-2'> <Card className="card-size shadow mt-3">
      
 <img style={{width:'100%', height:'150px'}} src={`${BASEURL}/upload/${item.cover}`} alt="img" />
 
