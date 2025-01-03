@@ -24,7 +24,7 @@ function HomeNavBar() {
 
   const logout=()=>{
     sessionStorage.clear()
-    navigate('/login')
+    navigate('/')
   }
 
       return (
