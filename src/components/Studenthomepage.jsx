@@ -130,7 +130,7 @@ console.log(refresh)
     <StudentNavBar/>
     <div className='container'>
     
-<Form.Control className='search-bar'
+<Form.Control className='search-bar mt-3'
         type="text"
         name="key"
         placeholder='search books here'
@@ -145,7 +145,7 @@ console.log(refresh)
   <div className='row'>
    
      { books?.map((item)=>(
-     <div className='col-6 col-md-3 col-lg-2'> <Card className="card-size shadow mt-3">
+     <div className='col-6 col-md-3 col-lg-2'> <Card className="card-size shadow mb-3">
      
 <img style={{width:'100%', height:'150px'}} src={`${BASEURL}/upload/${item.cover}`} alt="img" />
 
