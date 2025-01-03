@@ -34,7 +34,7 @@ export default function Homepage() {
       </Carousel.Item>
     </Carousel>
     </div>
-    <div>
+    <div style={{width:'100%',height:'500px'}}>
       <div>
         <h3 className='main-quote' onClick={quotesToRead}>Read, Dream, Repeat...</h3></div></div></div>
         </>
